@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuProducto">
+    <property name="title">
+     <string>Producto</string>
+    </property>
+    <addaction name="actionAlta_de_producto"/>
+    <addaction name="actionBaja_de_producto"/>
+    <addaction name="actionModificar_producto"/>
+    <addaction name="actionListar_todos_los_productos"/>
+    <addaction name="actionBuscar_productos"/>
+   </widget>
+   <widget class="QMenu" name="menuProveedores">
+    <property name="title">
+     <string>Proveedores</string>
+    </property>
+    <addaction name="actionAlta_de_Proveedores"/>
+    <addaction name="actionModificar_datos_proveedor"/>
+    <addaction name="actionBaja_de_proveedores"/>
+    <addaction name="actionListar_Proveeedores"/>
+    <addaction name="actionBuscar_Proveedores"/>
+   </widget>
+   <widget class="QMenu" name="menuCategor_as">
+    <property name="title">
+     <string>Categorías</string>
+    </property>
+    <addaction name="actionAlta_Categor_a_de_Producto"/>
+    <addaction name="actionModificar_categor_a_de_MOducto"/>
+    <addaction name="actionBaja_de_Categor_a_de_Producto"/>
+    <addaction name="actionListar_Categor_as"/>
+   </widget>
+   <widget class="QMenu" name="menuCompras">
+    <property name="title">
+     <string>Compras</string>
+    </property>
+    <addaction name="actionIngreso_de_Mercader_a"/>
+   </widget>
+   <widget class="QMenu" name="menuVentas">
+    <property name="title">
+     <string>Ventas</string>
+    </property>
+   </widget>
+   <addaction name="menuProducto"/>
+   <addaction name="menuProveedores"/>
+   <addaction name="menuCategor_as"/>
+   <addaction name="menuCompras"/>
+   <addaction name="menuVentas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAlta_de_producto">
+   <property name="text">
+    <string>Alta de Producto</string>
+   </property>
+  </action>
+  <action name="actionBaja_de_producto">
+   <property name="text">
+    <string>Baja de Producto</string>
+   </property>
+  </action>
+  <action name="actionListar_todos_los_productos">
+   <property name="text">
+    <string>Listar Productos</string>
+   </property>
+  </action>
+  <action name="actionBuscar_productos">
+   <property name="text">
+    <string>Buscar productos</string>
+   </property>
+  </action>
+  <action name="actionAlta_de_Proveedores">
+   <property name="text">
+    <string>Alta de Proveedores</string>
+   </property>
+  </action>
+  <action name="actionBaja_de_proveedores">
+   <property name="text">
+    <string>Baja de Proveedores</string>
+   </property>
+  </action>
+  <action name="actionListar_Proveeedores">
+   <property name="text">
+    <string>Listar Proveeedores</string>
+   </property>
+  </action>
+  <action name="actionBuscar_Proveedores">
+   <property name="text">
+    <string>Buscar Proveedores</string>
+   </property>
+  </action>
+  <action name="actionModificar_producto">
+   <property name="text">
+    <string>Modificar Producto</string>
+   </property>
+  </action>
+  <action name="actionModificar_datos_proveedor">
+   <property name="text">
+    <string>Modificar datos proveedor</string>
+   </property>
+  </action>
+  <action name="actionAlta_Categor_a_de_Producto">
+   <property name="text">
+    <string>Alta Categoría de Producto</string>
+   </property>
+  </action>
+  <action name="actionModificar_categor_a_de_MOducto">
+   <property name="text">
+    <string>Modificar Categoría de Producto</string>
+   </property>
+  </action>
+  <action name="actionBaja_de_Categor_a_de_Producto">
+   <property name="text">
+    <string>Baja de Categoría de Producto </string>
+   </property>
+  </action>
+  <action name="actionListar_Categor_as">
+   <property name="text">
+    <string>Listar Categorías</string>
+   </property>
+  </action>
+  <action name="actionIngreso_de_Mercader_a">
+   <property name="text">
+    <string>Ingreso de Mercadería</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
